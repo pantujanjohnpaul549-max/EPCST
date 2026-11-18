@@ -28677,7 +28677,7 @@ if(q==null)q=r.a(q)
 if(b.$1(q))return q}return null},
 a36(a,b){var s=0,r=A.Q(t.a),q,p,o,n,m,l
 var $async$a36=A.R(function(c,d){if(c===1)return A.N(d,r)
-for(;;)switch(s){case 0:p=A.fP("http://localhost:3000/api/auth/login",0,null)
+for(;;)switch(s){case 0:p=A.fP("https://epcst-backend-fetn.onrender.com/api/auth/login",0,null)
 o=t.N
 n=A.ao(["Content-Type","application/json"],o,o)
 s=3
@@ -28691,7 +28691,7 @@ throw A.e(A.dM(p==null?"Login failed. Please try again.":p))}case 1:return A.O(q
 return A.P($async$a36,r)},
 a37(a,b,c,d){var s=0,r=A.Q(t.a),q,p,o,n,m,l
 var $async$a37=A.R(function(e,f){if(e===1)return A.N(f,r)
-for(;;)switch(s){case 0:p=A.fP("http://localhost:3000/api/auth/register",0,null)
+for(;;)switch(s){case 0:p=A.fP("https://epcst-backend-fetn.onrender.com/api/auth/register",0,null)
 o=t.N
 n=A.ao(["Content-Type","application/json"],o,o)
 s=3
